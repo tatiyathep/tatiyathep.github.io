@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>สถานการณ์โควิด - 19 ประเทศไทย</title>
+    <link href="./style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="topic">สถานการณ์โควิด - 19 ประเทศไทย</h1>
+    <div class="row row-cols-1 row-cols-md-1 mb-3">
+        <div class="col">
+            <div class="card text-white bg-secondary">
+                <div class="card-body">
+                    <h5 class="card-title">ติดเชื้อสะสม</h5>
+                    <p class="card-text confirmed"></p>
+                    <p class="card-text newConfirmed"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+            <div class="card text-white bg-success">
+                <div class="card-body">
+                    <h5 class="card-title">หายแล้ว</h5>
+                    <p class="card-text recovered"></p>
+                    <p class="card-text newRecovered"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-white bg-info">
+                <div class="card-body">
+                    <h5 class="card-title">รักษาอยู่ใน รพ.</h5>
+                    <p class="card-text hospitalized"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card text-white bg-dark">
+                <div class="card-body">
+                    <h5 class="card-title">เสียชีวิต</h5>
+                    <p class="card-text deaths"></p>
+                    <p class="card-text NewDeaths"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="credit">
+        <span>Data by :</span><a href="https://covid19.th-stat.com/th" target="_blank"> กรมควมคุมโรค </a>
+        <span class="updateDate"></span>
+    </div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+:root {
+    --good-aqi-color: #b0e767;
+    --medium-aqi-color: #fe9b56;
+    --bad-aqi-color: #fe6a69;
+    --current-aqi-color:var(--good-aqi-color);
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+body {
+    height: 100vh;
+    color: #515154;
+    font-family: cursive;
+    background: #43cea2;
+    background: linear-gradient(45deg, #185a9d,#43cea2);
+}
+.aqi {
+    text-align: center;
+    color: #fff;
+    background-color: var(--current-aqi-color);
+}
+.aqi > h1 {
+    margin: 0;
+    font-size: 3em;
+}
+.location {
+    text-align: center;
+    color:#fff;
+}
+.city {
+    margin: 0;
+    font-size: 2em;
+}
+.state-country {
+    margin-top: 0;
+}
+
+.credit {
+    margin-top: 10px;
+    color: #FFF;
+}
+.credit a {
+    color: #FFF;
+    text-decoration: none;
+}
