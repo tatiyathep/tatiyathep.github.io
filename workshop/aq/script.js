@@ -28,9 +28,9 @@
         setElementInnerText(cityElem, city);
         setElementInnerText(statCountryeElem, `${state},${country}`);
         setElementInnerText(aqiElem, aqi);
-        setElementInnerText(temperatureElem, `Temp : ${temperature} °C`);
-        setElementInnerText(humidityElem, `Humidity : ${humidity}%`);
-        setElementInnerText(windElem, `Wind : ${wind} m/s`);
+        setElementInnerText(temperatureElem, `${temperature} °C`);
+        setElementInnerText(humidityElem, `${humidity}%`);
+        setElementInnerText(windElem, `${wind} m/s`);
     }
 
     function setAirQualityColor(aqi) {

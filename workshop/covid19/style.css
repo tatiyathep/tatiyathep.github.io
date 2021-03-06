@@ -1,10 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,500;1,700&display=swap');
-:root {
-    --good-aqi-color: #b0e767;
-    --medium-aqi-color: #fe9b56;
-    --bad-aqi-color: #fe6a69;
-    --current-aqi-color:var(--good-aqi-color);
-}
 body {
     font-family: 'Niramit', cursive;
 }
